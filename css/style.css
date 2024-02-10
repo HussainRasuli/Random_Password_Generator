@@ -1,0 +1,72 @@
+body {
+  background: #1c1c1c;
+}
+.main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 52px;
+  width: 550px;
+  height: 550px;
+  background: #ecfdf5;
+}
+h1 {
+  color: #2b283a;
+  font-size: 34px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+}
+.random_pass_text {
+  color: #10b981;
+}
+p {
+  color: #6b7280;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+}
+#pass_btn {
+  background: #10b981;
+  padding: 10px 17px 10px 15px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+#pass_one,
+#pass_two {
+  background: #273549;
+  display: inline-block;
+  width: 193px;
+  margin: 2px 0px;
+  height: 40px;
+  text-align: center;
+  color: #5def92;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 37px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.content_div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 77px 62px;
+}
+hr {
+  color: #d5d4d8;
+  width: 100%;
+  margin: 37px 0px;
+}
+.random_pass_div {
+  margin: 0 auto;
+}
+.message {
+  display: flex;
+  justify-content: space-around;
+}
